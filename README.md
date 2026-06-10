@@ -15,6 +15,37 @@ The dataset comprises 2,000 annotated images of dead and live fish collected fro
 
 
 
+
+
+## Repository Structure
+
+- dataset/        : 2,000 annotated images (train/valid/test split 70:20:10)
+
+- weights/pytorch : 12 x PyTorch model weights (.pt)
+
+- weights/onnx    : 12 x ONNX model weights (.onnx)
+
+- inference/      : Example inference scripts
+
+
+
+## Dataset
+
+- Total images    : 2,000
+
+- Classes         : Dead, Live
+
+- Split           : 70:20:10 (train:valid:test)
+
+- Annotation      : YOLO format (.txt)
+
+- Lighting        : Ambient and supplemental
+
+- Mortality levels: Zero, Low (<3 fish), High (>=3 fish)
+
+- Collection      : 90-day commercial RAS deployment
+
+
 ## Sample Detection Results
 
 
@@ -63,35 +94,6 @@ The dataset comprises 2,000 annotated images of dead and live fish collected fro
 
 
 
-## Repository Structure
-
-- dataset/        : 2,000 annotated images (train/valid/test split 70:20:10)
-
-- weights/pytorch : 12 x PyTorch model weights (.pt)
-
-- weights/onnx    : 12 x ONNX model weights (.onnx)
-
-- inference/      : Example inference scripts
-
-
-
-## Dataset
-
-- Total images    : 2,000
-
-- Classes         : Dead, Live
-
-- Split           : 70:20:10 (train:valid:test)
-
-- Annotation      : YOLO format (.txt)
-
-- Lighting        : Ambient and supplemental
-
-- Mortality levels: Zero, Low (<3 fish), High (>=3 fish)
-
-- Collection      : 90-day commercial RAS deployment
-
-
 
 ## Quick Start
 
@@ -127,15 +129,14 @@ results[0].show()
 
 ## Citation
 
+
 If you use RAS-MortDB, please cite:
 
+**Dataset:**
 
-
-    Ranjan, R. et al. Does YOLO26 NMS-Free Architecture Outperform
-
-    Its Predecessors for Edge-Deployable Fish Mortality Monitoring
-
-    in RAS? AI 2026. DOI: TBD
+    Ranjan, R. (2026). RAS-MortDB: Fish Mortality Detection Dataset and Model
+    Weights for Recirculating Aquaculture Systems (v1.0.0) [Data set].
+    Zenodo. https://doi.org/10.5281/zenodo.20631781
 
 
 
