@@ -4,7 +4,7 @@
 
 ## Overview
 
-RAS-MortDB is a publicly available RAS fish mortality detection dataset and model repository supporting this under review paper:
+RAS-MortDB is a publicly available RAS fish mortality detection dataset and model repository:
 
 
 
