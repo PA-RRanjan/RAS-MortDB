@@ -1,11 +1,31 @@
+
 cff-version: 1.2.0
-message: If you use this dataset or model weights please cite as below.
+
+message: "If you use this dataset or model weights, please cite as below."
+
 authors:
+
   - family-names: Ranjan
+
     given-names: Rakesh
-    affiliation: The Conservation Fund Freshwater Institute 
-title: RAS-MortDB Fish Mortality Detection Dataset and Model Weights
+
+    affiliation: "The Conservation Fund Freshwater Institute"
+
+title: "RAS-MortDB: Fish Mortality Detection Dataset and Model Weights for Recirculating Aquaculture Systems"
+
 version: 1.0.0
+
 date-released: 2026-06-10
+
 url: https://github.com/PA-RRanjan/RAS-MortDB
+
+repository-code: https://github.com/PA-RRanjan/RAS-MortDB
+
+identifiers:
+
+  - type: doi
+
+    value: 10.5281/zenodo.20631781
+
 license: CC-BY-4.0
+
