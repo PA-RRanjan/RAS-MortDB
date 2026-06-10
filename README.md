@@ -1,3 +1,4 @@
+
 # RAS-MortDB: RAS Fish Mortality Detection Dataset and Model Weights
 
 
@@ -6,13 +7,33 @@
 
 RAS-MortDB is a publicly available RAS fish mortality detection dataset and model repository:
 
-
-
 > Ranjan, R. et al. Does YOLO26 truly offer advantages over its predecessors for Edge-Deployed Object Detection? A Benchmark Case Study in Aquaculture (Paper under peer-review)
 
 
 
 The dataset comprises 2,000 annotated images of dead and live fish collected from a semi-commercial RAS over a 90-day deployment period under ambient and supplemental lighting conditions. Trained model weights for twelve Ultralytics YOLO architectures across three size tiers are provided in PyTorch (.pt) and ONNX (.onnx) formats.
+
+
+
+## Sample Detection Results
+
+
+
+Comparison of YOLO26n vs YOLOv8n detections on the same images:
+
+
+
+| YOLO26n | YOLOv8n |
+
+|:-------:|:-------:|
+
+| <img src="docs/assets/yolo26n_image20.jpg" width="100%"> | <img src="docs/assets/yolov8n_image20.jpg" width="100%"> |
+
+| <img src="docs/assets/yolo26n_image82.jpg" width="100%"> | <img src="docs/assets/yolov8n_image82.jpg" width="100%"> |
+
+| <img src="docs/assets/yolo26n_image171.jpg" width="100%"> | <img src="docs/assets/yolov8n_image171.jpg" width="100%"> |
+
+| <img src="docs/assets/yolo26n_image182.jpg" width="100%"> | <img src="docs/assets/yolov8n_image182.jpg" width="100%"> |
 
 
 
@@ -46,12 +67,7 @@ The dataset comprises 2,000 annotated images of dead and live fish collected fro
 
 
 
-
-
-
 ## Quick Start
-
-
 
 ### PyTorch inference
 
@@ -66,8 +82,6 @@ results = model.predict("your_image.jpg", conf=0.25)
 results[0].show()
 
 ```
-
-
 
 ### ONNX inference (Raspberry Pi / CPU)
 
@@ -111,7 +125,7 @@ If you use RAS-MortDB, please cite:
 
 Rakesh Ranjan
 
-The Conservation Fund Freshwater Institute 
+The Conservation Fund Freshwater Institute
 
 Email: rranjan@conservationfund.org
 
