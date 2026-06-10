@@ -19,21 +19,47 @@ The dataset comprises 2,000 annotated images of dead and live fish collected fro
 
 
 
-Comparison of YOLO26n vs YOLOv8n detections on the same images:
+### YOLO26n Detections
 
 
 
-| YOLO26n | YOLOv8n |
+<p align="center">
 
-|:-------:|:-------:|
+  <img src="docs/assets/yolo26n_image20.jpg" width="45%">
 
-| <img src="docs/assets/yolo26n_image20.jpg" width="100%"> | <img src="docs/assets/yolov8n_image20.jpg" width="100%"> |
+  <img src="docs/assets/yolo26n_image82.jpg" width="45%">
 
-| <img src="docs/assets/yolo26n_image82.jpg" width="100%"> | <img src="docs/assets/yolov8n_image82.jpg" width="100%"> |
+</p>
 
-| <img src="docs/assets/yolo26n_image171.jpg" width="100%"> | <img src="docs/assets/yolov8n_image171.jpg" width="100%"> |
+<p align="center">
 
-| <img src="docs/assets/yolo26n_image182.jpg" width="100%"> | <img src="docs/assets/yolov8n_image182.jpg" width="100%"> |
+  <img src="docs/assets/yolo26n_image171.jpg" width="45%">
+
+  <img src="docs/assets/yolo26n_image182.jpg" width="45%">
+
+</p>
+
+
+
+### YOLOv8n Detections
+
+
+
+<p align="center">
+
+  <img src="docs/assets/yolov8n_image20.jpg" width="45%">
+
+  <img src="docs/assets/yolov8n_image82.jpg" width="45%">
+
+</p>
+
+<p align="center">
+
+  <img src="docs/assets/yolov8n_image171.jpg" width="45%">
+
+  <img src="docs/assets/yolov8n_image182.jpg" width="45%">
+
+</p>
 
 
 
