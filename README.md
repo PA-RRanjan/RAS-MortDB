@@ -15,21 +15,24 @@ The dataset comprises 2,000 annotated images of dead and live fish collected fro
 
 ## Repository Structure
 
+
+```
 RAS-MortDB/
-├── dataset/ # 2,000 annotated images (YOLO format)
-│ ├── train/ # 1,400 original + 1,400 augmented (2,800 total)
-│ ├── valid/ # 400 images
-│ ├── test/ # 200 images
-│ └── data.yaml # Dataset configuration
+├── dataset/               # 2,000 annotated images (YOLO format)
+│   ├── train/             # 1,400 original + 1,400 augmented (2,800 total)
+│   ├── valid/             # 400 images
+│   ├── test/              # 200 images
+│   └── data.yaml          # Dataset configuration
 ├── weights/
-│ ├── pytorch/ # 12 x PyTorch model weights (.pt)
-│ └── onnx/ # 12 x ONNX model weights (.onnx)
+│   ├── pytorch/           # 12 x PyTorch model weights (.pt)
+│   └── onnx/              # 12 x ONNX model weights (.onnx)
 ├── training_configs/      # args.yaml for all 84 training runs
 ├── inference/
 │   └── run_inference.py   # Example inference script
 ├── docs/assets/           # Sample detection images
 ├── CITATION.cff
 └── LICENSE
+```
 
 ---
 
