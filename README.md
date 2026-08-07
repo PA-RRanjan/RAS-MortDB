@@ -175,8 +175,8 @@ Deployment in Aquaculture? A Benchmark Study. AI 2026 (under review).
 **Dataset:**
 
 Ranjan, R. (2026). RAS-MortDB: Fish Mortality Detection Dataset and
-Model Weights for Recirculating Aquaculture Systems (v1.0.0) [Data set].
-Zenodo. https://doi.org/10.5281/zenodo.20631781
+Model Weights for Recirculating Aquaculture Systems (v1.1.0) [Data set].
+Zenodo. https://doi.org/10.5281/zenodo.20631780
 
 ---
 
