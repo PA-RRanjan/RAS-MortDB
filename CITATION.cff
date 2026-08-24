@@ -13,9 +13,9 @@ authors:
 
 title: "RAS-MortDB: Fish Mortality Detection Dataset and Model Weights for Recirculating Aquaculture Systems"
 
-version: 1.0.0
+version: 1.1.0
 
-date-released: 2026-06-10
+date-released: 2026-08-06
 
 url: https://github.com/PA-RRanjan/RAS-MortDB
 
@@ -25,7 +25,7 @@ identifiers:
 
   - type: doi
 
-    value: 10.5281/zenodo.20631781
+    value: 10.5281/zenodo.20631780
 
 license: CC-BY-4.0
 
